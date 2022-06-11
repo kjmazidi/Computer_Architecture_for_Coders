@@ -36,8 +36,8 @@
 	move	$a0, $t1
 	syscall	
 	
-	# force bit 1to be 0
-	andi	$t1, $t1, 0xfffffff2	
+	# force bit 1 to be 0
+	andi	$t1, $t1, 0xfffffffd	
 
 	# print newline
 	li	$v0, 11
